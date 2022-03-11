@@ -2,10 +2,10 @@ name: Unit test with mocha and chi
 on: 
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   mocha-unit-test:
     name: Unit test for 30 challange
