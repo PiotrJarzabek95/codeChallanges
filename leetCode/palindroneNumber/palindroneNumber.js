@@ -30,20 +30,15 @@ Constraints:
  * @param {number} x
  * @return {boolean}
  */
- function isPalindrome(x) {
-    
-    
-   let reversed = x.toString().split('').reverse().join('');
-   
-   return x === parseInt(reversed) ? true : false;
-     
-    
-     
- };
 
 
-console.log(isPalindrome(121));
-console.log(isPalindrome(-121));
-console.log(isPalindrome(122));
-console.log(isPalindrome(10));
-console.log(isPalindrome(222));
+ export class Palindrome {
+
+  // Method
+  isPalindrome(palindromeNumber) {
+    
+    let reversed = palindromeNumber.toString().split('').reverse().join('');
+    return palindromeNumber === parseInt(reversed) ? true : false;
+
+  };
+}
