@@ -54,6 +54,3 @@ export class ValidParentheses{
  }
 
 }
-
-let vP = new ValidParentheses();
-console.log(vP.checkValidParentheses("}[[]"));
